@@ -1,0 +1,95 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <nav class="head">
+        <a href="#" class="nav" style="margin-left: 730px;">Главная</a>
+        <a href="#" class="nav" style="margin-left: 830px;">Машины</a>
+        <a href="#" class="nav" style="margin-left: 940px;">Контакты</a>
+    </nav>
+    </div>
+
+      <form>
+        <h1>Обратная связь</h1>
+          <input class="form-control" type="text" name="Name" placeholder="Имя" />
+          <input class="form-control" type="email" name="Email" placeholder="Email*"/>
+          <input class="form-control" type="tel" name="Phone" placeholder="(###)##-##-##"/>
+          <label><textarea class="form-control" placeholder="Ваше сообщение *"></textarea></label>
+          <input class="form-control-submit" type="submit" name="submit"/>
+      <div class="form-contact">
+        <div class="h1"><h1>Контакты</h1></div>
+            <div class="element">
+                <i class="material-icons">
+                    <img src={% static 'image/placeholder1.png' %} style="height: 17px;">
+                </i>
+                <div class="title">Адрес</div>
+                <div class="text">г.Бишкек, ул.Ахунбаева, д.6, офис 4</div>
+            </div>
+            <div class="element">
+                <i class="material-icons">
+                    <img src={% static 'image/placeholder3.png' %} style="height: 17px;">
+                </i>
+                <div class="title">Время работы</div>
+                <div class="text">с 9.00-21.00</div>
+            </div>
+            <div class="element">
+                <i class="material-icons">
+                    <img src={% static 'image/placeholder2.png' %} style="height: 17px;">
+                </i>
+                <div class="title">Телефон</div>
+                <div class="text">+996 (500) 50-00-05</div>
+            </div>
+            <div class="element">
+                <i class="material-icons">
+                    <img src={% static 'image/placeholder4.png' %} style="height: 17px;">
+                </i>
+                <div class="title">Email</div>
+                <div class="text">arend.a.car@mail.ru</div>
+            </div>
+      </div>
+
+      </form>
+          <div class="hr">
+              <hr>
+          </div>
+    <footer>
+            <div class="footer-element-w">
+                <div class="footer-element">
+                    <a href="https://www.facebook.com"><img src={% static 'image/w1' %}></a>
+                </div>
+                <div class="footer-element">
+                    <a href="https://www.google.com/"><img src={% static 'image/w2' %}></a>
+                </div>
+                <div class="footer-element">
+                    <a href="https://twitter.com"><img src={% static 'image/w3' %}></a>
+                </div>
+                <div class="footer-element">
+                    <a href="https://ru.wikipedia.org"><img src={% static 'image/w4' %}></a>
+                </div>
+                <div class="footer-element">
+                    <a href="https://www.instagram.com/"><img src={% static 'image/w5' %}></a>
+                </div>
+            </div>
+        <!-- <div class="footer-menu">
+            <a href="#" style="margin-left: 540px; margin-top: -50px; color: white; position: absolute;">Главная</a>
+            <a href="#" style="margin-left: 630px; margin-top: -50px; color: white; position: absolute;">Машины</a>
+            <a href="#" style="margin-left: 720px; margin-top: -50px; color: white; position: absolute;">Контакты</a>
+        </div> -->
+         <div class="div-hr"><hr></div>
+            <div class="avtor">
+                SITE BY DASTAN&ELDOS
+            </div>
+    </footer>
+
+
+</body>
+</html>

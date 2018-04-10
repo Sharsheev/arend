@@ -1,0 +1,134 @@
+.head{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+.nav{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.wrapper{
+    background: url(../img/imga.jpg) center 0 no-repeat #000;
+    width: 100%;
+    height: 900px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 110px;
+    color: #fff;
+}
+.h1{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 85px;
+    color: #fff;
+
+}
+textarea.form-control {
+    height: auto;
+    max-width: 100%;
+    min-height: 120px;
+    resize: none;
+    padding-top: 10px;
+    align-content: ;
+
+}
+
+form{
+    width: ;
+    height: 400px;
+    margin-top: -770px;
+    margin-left: 60px;
+}
+
+.form-control {
+    display: block;
+    width: 500px;
+    height: 42px;
+    padding: 0 15px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.42857143;
+    color: #737373;
+    background-color: #fff;
+    border: 1px solid #E6E6E6;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.form-control-submit{
+    width: 533px;
+    height: 42px;
+    padding: 0 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #2ecc71;
+    border: 0px solid #E6E6E6;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.form-contact{
+    width: 500px;
+    height: 500px;
+    margin-left: 700px;
+    margin-top: -485px;
+}
+.element{
+    display: block;
+    height: 42px;
+    padding: 0 15px;
+    padding-top: 10px;
+    line-height: 1.02857143;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #E6E6E6;
+    margin-bottom: 17px;
+    border-radius: 4px;
+
+}
+.title{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 28px;
+}
+.hr{
+    margin-top: 205px;
+}
+.footer-element-w{
+    width: 250px;
+    height: 100px;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+.footer-element{
+    display: inline;
+    margin-left: 10px;
+}
+.avtor{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin-left: 590px;
+    margin-top: 10px;
+}
+.div-hr{
+    width: 400px;
+    margin-left: 470px;
+    margin-top: -50px;
+}
+
+
